@@ -1,7 +1,7 @@
 {
-  "name": "simple-npm-module",
+  "name": "browser-navigation-warning",
   "version": "1.0.0",
-  "description": "This is an NPM module! ",
+  "description": "Will trigger the browsers default pop-up before navigating away.",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evargast/simple-npm-module.git"
+    "url": "git+https://github.com/evargast/browserNavigationWarning.git"
   },
-  "keywords": [],
+  "keywords": ["browser", "onbeforeunload", "refresh", "navigation", "prevent", "route guard"],
   "author": "Eduardo Vargas <eduardo@adobe.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/evargast/simple-npm-module/issues"
+    "url": "https://github.com/evargast/browserNavigationWarning/issues"
   },
-  "homepage": "https://github.com/evargast/simple-npm-module#readme",
+  "homepage": "https://github.com/evargast/browserNavigationWarning#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
@@ -37,8 +37,6 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
-  "dependencies": {
-    "typescript": "^4.0.3"
-  },
+  "dependencies": {},
   "peerDependencies": {}
 }
