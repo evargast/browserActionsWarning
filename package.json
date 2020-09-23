@@ -1,6 +1,6 @@
 {
   "name": "browser-navigation-warning",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Will trigger the browsers default pop-up before navigating away.",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
@@ -18,7 +18,14 @@
     "type": "git",
     "url": "git+https://github.com/evargast/browserNavigationWarning.git"
   },
-  "keywords": ["browser", "onbeforeunload", "refresh", "navigation", "prevent", "route guard"],
+  "keywords": [
+    "browser",
+    "onbeforeunload",
+    "refresh",
+    "navigation",
+    "prevent",
+    "route guard"
+  ],
   "author": "Eduardo Vargas <eduardo@adobe.com>",
   "license": "ISC",
   "bugs": {

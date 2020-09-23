@@ -30,9 +30,9 @@ This function takes in one parameter, `trigger` (boolean) - this sets whether th
 
 ### Static - always enabled
 
-To have the warning ready in all your pages, add the line below in your root file of your application (Usually `App`).
+To have the warning enabled in all your pages, add the line below in the root file of your application (Usually `App`).
 
-Otherwise, add the line below to the specific pages / components you want.
+Otherwise, add the line below to the specific pages / components you want to have the warning enabled.
 
 ```javascript
 import triggerBrowserWarning from 'browser-navigation-warning';
